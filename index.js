@@ -1,1 +1,21 @@
 // Write your code here!
+document.addEventListener('DOMContentLoaded', function () {
+    const mainElement = document.querySelector('#main');
+    mainElement.remove();
+  
+    const newHeader = document.createElement('h1');
+    newHeader.id = 'victory';
+    newHeader.innerHTML = 'YOUR-NAME is the champion';
+    document.body.appendChild(newHeader);
+  });
+
+  const mainElement = document.getElementById('main');
+mainElement.remove();
+
+const newHeader = document.createElement('h1');
+newHeader.id = 'victory';
+newHeader.textContent = 'YOUR-NAME is the champion';
+
+document.body.appendChild(newHeader);
+
+  
